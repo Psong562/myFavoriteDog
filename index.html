@@ -6,24 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./reset.css">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
   <title>Dachshunds are the BEST</title>
 </head>
 
 <body>
   <div class="content">
-  <header class="header">
+  <header class="row" class="header">
+    <div class="col">
     <h1>Dachshund</h1>
-    <img id="firstDog" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHP9psi7XocZ9n0eT8lzCDbYw5MO1kOYNxJw&usqp=CAU" alt="first dog">
+    <img id="firstDog" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHP9psi7XocZ9n0eT8lzCDbYw5MO1kOYNxJw&usqp=CAU" class="mx-auto d-block" alt="first dog">
     <nav class="headerNav">
-        <a href="https://www.k9ofmine.com/types-of-dachshunds/"target="_blank">More About Dachshunds</a>
+        <p class="text-center"><a href="https://www.k9ofmine.com/types-of-dachshunds/"target="_blank">More About Dachshunds</a>
         <br />
         <a href="https://scdr.org/" target="_blank">Adopt a Dachshund</a>
-      
+        </p>
     </nav>
+    </div>
   </header>
   <figure class="dog1"></figure>
-      <summary class="about">
+      <div class="row">
+      <summary class="col-6" class="about">
         <h1 id="#about-a-Dachshund"> About Dachshund</h1>
         <p> The famously long, low silhouette, ever-alert expression, and bold, vivacious personality of the Dachshund have made him
         a superstar of the canine kingdom. Dachshunds come in two sizes and in three coat types of various colors and patterns.
@@ -35,7 +40,7 @@
         can be brave to the point of rashness, and a bit stubborn, but their endearing nature and unique look has won millions
         of hearts the world over.</p>
       </summary>
-      <summary class="adopt"> 
+      <summary class="col-6" class="type"> 
         <h1 id="#types-of-Dachshunds">Types of Dachshunds</h1>
           <h2>Smooth Hair</h2>
             <p>The majority of U.S. dachshunds have smooth coats. These coats are soft, short, shiny, and dense. They also require very
@@ -49,14 +54,19 @@
                 <p>Wire-haired dachshunds have medium-length, coarse, slightly wavy hair that gives them a “rough” appearance. They also
                 have (amazingly cute) facial hair, which makes them pretty easy to recognize.</p>
                  <img id="wiredHair" src="https://www.purina.com.au/-/media/project/purina/main/breeds/dog/dog_dachshund-miniature-wire-haired_desktop.jpg?h=475&la=en&w=825&hash=9549F6FE578E0BDEDE19A72E7C8BFDF4" alt="wiredHair">
-        
       </summary>
-  <div class="end">
+  
+  <div class="row" class="end">
     <br />
     <h3>Dachshund are the best... Just because and ill just leave this here.</h3>
     <img id="derp" src="https://external-preview.redd.it/eE45xUGwThVyN0i4YTaxkOQj2YMIsprBbCzGb5h2C1s.jpg?auto=webp&s=159e11678ed2b1ba02989c2dc27aaa3ab09da00d" alt="derp">
   </div>
   </div>
+  <br />
 <footer class="footer"> The original Hot Dog 🌭 </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
